@@ -287,7 +287,7 @@
   
 }
 
-.quote__text{
+.quote__text {
   
   color: #fff;
   font-size: 18px;
@@ -299,7 +299,7 @@
   
 
 }
-.footer{
+.footer {
   background-image: linear-gradient(
     to right,
     #ff512f 0%,
@@ -315,18 +315,18 @@
   gap: 100px;
 }
 
-.footer__logo{
+.footer__logo {
   width: 300px;
 
 }
 
-.footer__logo__image{
+.footer__logo__image {
   width: 100%;
   filter: brightness(0) invert(1);
 
 }
 
-.footer__details a{
+.footer__details a {
   color: #F9F9F9;
   line-height: 10px;
   display: inline;
@@ -334,7 +334,7 @@
   
 }
 
-.footer__details a:hover{
+.footer__details a:hover {
   color: greenyellow ;
   cursor: progress;
 }
@@ -436,16 +436,17 @@
 
   }
 
-  .view__more__button{
+  .view__more__button {
     background-image: none;
   }
 
-  .footer{
+  .footer {
     display: flex;
     flex-direction: row;
   }
 
-  .quote__text{
+
+  .quote__text {
     font-size: 30px;
   }
 
