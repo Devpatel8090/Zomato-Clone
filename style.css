@@ -171,7 +171,9 @@
   
 }
 
+
 .view__more__button {
+  
   text-align: center;
   background-image: linear-gradient(
       to right,
@@ -179,14 +181,15 @@
        #dd2476 51%,
        #ff512f 100%
       ); 
-   color: #fff;
+    
+   color:#F9F9F9;
    margin: 10px;
    padding: 15px;
    font-weight: 700;
    font-size: 25px;
    border-radius: 6px;
-   display: block;
-   ;
+    
+   
 }
 
 
@@ -493,6 +496,20 @@
      .explore__menu__text {
        font-size: 48px;
      }
+
+     .view__more__button:hover {
+      width: 40%;
+      margin:auto;
+      background-color: #F9F9F9; 
+      transition-property: all;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0s;
+      color:#dd2476;
+      
+      
+     }
+     
 
      .quote__section {
        width : 100%;
